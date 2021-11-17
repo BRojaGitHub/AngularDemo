@@ -1,0 +1,7 @@
+import { Blog } from "./bloghub";
+export let blogs:Blog[]=[
+    new Blog(1,'Spring','The Spring Framework is an application framework and inversion of control container for the Java platform. The frameworks core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE platform.','Technical'),
+    new Blog(2,'LEH-LADAKH','Set amidst the epic Himalayas, Ladakh is a rustic and heavenly beautiful travel destination. The rugged valleys and mountains, winding roads coupled with the vibrant cultural life maintain the exuberance and charm of this region. The iconic Magnetic Hill, the turquoise coloured Pangong Lake, the confluence of two mystical rivers, ancient and awe inspiring monasteries and the highest passes are a few of the marvelous attractions of Leh and Ladakh in general.','Travell'),
+    new Blog(3,'Cooking','Cooking, cookery, or culinary arts is the art, science, and craft of using heat to prepare food for consumption. Cooking techniques and ingredients vary widely, from grilling food over an open fire to using electric stoves, to baking in various types of ovens, reflecting local conditions.','Personal'),
+    new Blog(4,'JAVA','Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.','Technical')
+]
